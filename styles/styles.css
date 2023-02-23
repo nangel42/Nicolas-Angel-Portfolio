@@ -1,0 +1,241 @@
+
+body {
+    background: url(/Nicolas-Angel-Portfolio/assets/Chile-Background01.png) no-repeat center center fixed;
+    background-size: cover;
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h1 {
+    font-size: 100px;
+    /* position:relative; top: -5vh; left:0px; margin-left:0px; margin-right:0px; */
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 1em white, 0 0 0.2em whitesmoke;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 1em white, 0 0 0.2em whitesmoke;
+    color: rgb(0, 0, 0);
+}
+
+li {
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 1em white, 0 0 0.2em whitesmoke;
+    color: rgb(0, 0, 0);
+}
+
+section {
+    margin: 0 auto;
+}
+
+
+/* NAV BAR CSS */
+.container-fluid {
+    width: 100vw;
+}
+.nav {
+    width: 100vw;
+    top: 0;
+    left: 0;
+    /* background-color: antiquewhite; */
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+.navbar{
+    /* margin-left:100px;
+    margin-right:100px; */
+    
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{
+    color: rgba(0, 0, 0, 0.342);
+    text-decoration: underline rgba(0, 0, 0, 0.342);
+}
+
+
+p{
+    font-size: 50px;
+}
+
+
+
+ul {
+    font-size: 50px;
+}
+
+/* MODAL CSS */
+h2{
+    font-size: 100px;
+}
+
+#modal {
+    background-image: url(/Nicolas-Angel-Portfolio/assets/computerBrain.png);
+    background-position: bottom bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+	display: none;
+}
+
+#modal-textbox {
+    text-align: center;
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 1em white, 0 0 0.2em whitesmoke;
+    color: rgb(0, 0, 0);
+	height: 100vh;
+	width: 100vw;
+	padding: 2%;
+	line-height: 1200%;
+	font-family: 'Lato';
+    font-weight: 700;
+    
+}
+
+
+
+
+/* Projects Carousel */
+.project-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+.project-pictures {
+    width: 80%;
+    background: #302d2dc5;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    
+  }
+  
+.project-pictures img {
+    width: 100%;
+    border-radius: 10px;
+    display: none;
+  }
+.project-pictures img:first-of-type {
+    display: block
+}
+.project-button {
+  align-self: center;
+  background: #b10c0c;
+  
+  padding: 10px;
+  border-radius: 50% 50%;
+  text-align: center;
+  box-shadow: 1px 1px #000000;
+}
+
+/* CONTACT PICTURES */
+
+
+.social {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.social img{ 
+    max-width: 5vw;
+    max-height: 5vh;
+}
+
+
+/* SCREEN SIZE FOR TABLET*/
+@media screen and (max-width: 900px) and (min-width: 600px)
+{
+    h1{
+        font-size:50px;
+        line-height: 50px;
+    }
+    h2{
+        font-size:50px;
+        line-height: 50px;
+    }
+   
+    p{
+        font-size: 35px;
+    }
+
+   /* displays hamburger*/
+    .hamburger {
+        display: block;
+    }
+    /* Makes hamburger do the X */
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #navbar{
+        font-size: 30  px;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: aqua;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-manu.active{
+        left:0%;
+    }
+}
+
+/* SCREEN SIZE FOR PHONES */
+@media screen and (max-width: 599px)
+{
+    h1{
+        font-size:36px;
+        line-height: 50px;
+    }
+    h2{
+        font-size:36px;
+        line-height: 50px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .hamburger {
+        display: block;
+    }
+}
+
+
+/* Refrences ----------------------
+    https://www.freecodecamp.org/news/how-to-keep-a-navbar-at-the-top-of-my-viewport/
+https://www.youtube.com/watch?v=HHtMMS42cWs&t=116s
+https://www.youtube.com/watch?v=zuAmsj2EN54
+
+*/
