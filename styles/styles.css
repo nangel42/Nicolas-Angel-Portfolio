@@ -32,7 +32,8 @@ section {
     background-color: #775a4a;
     position:relative; top:30px; left: 30px; margin-left:0px; margin-right: 920px; 
     font-size: 35px;
-    
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
 }
 
 /* NAV BAR CSS */
@@ -70,11 +71,7 @@ a:hover{
     text-decoration: underline rgba(0, 0, 0, 0.342);
 }
 
-/*
-p{
-    font-size: 50px;
-}
-*/
+
 
 
 ul {
@@ -155,6 +152,43 @@ h2{
   box-shadow: 1px 1px #000000;
 }
 
+/* About Me Carousel */
+.about-me-container {
+    width: 30%;
+    height: auto;
+    display: flex;
+    /* float: right; */
+    position:relative; top:-1000px; left: 1200px; margin-left:0px; margin-right: 920px; 
+    
+  }
+  
+.about-me-pictures {
+    width: 80%;
+    background: #302d2dc5;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    
+  }
+  
+.about-me-pictures img {
+    width: 100%;
+    border-radius: 10px;
+    display: none;
+  }
+.about-me-pictures img:first-of-type {
+    display: block
+}
+.about-me-button {
+  align-self: center;
+  background: #b10c0c;
+  
+  padding: 10px;
+  border-radius: 50% 50%;
+  text-align: center;
+  box-shadow: 1px 1px #000000;
+}
 /* CONTACT PICTURES */
 
 
@@ -193,6 +227,13 @@ h2{
         font-size: 35px;
         
     }
+    .about-me-container {
+        width: 30%;
+        display: flex;
+        /* float: right; */
+        position:relative; top:-1000px; left: 1200px; margin-left:0px; margin-right: 920px; 
+        
+      }
 }
 
 /* SCREEN SIZE FOR PHONES */
