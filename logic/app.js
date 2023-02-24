@@ -54,3 +54,26 @@ prev.addEventListener('click', () => cycle(-1))
 
 const next = document.querySelector('.next')
 next.addEventListener('click', () => cycle(1))
+
+//About Me Carousel -----------------------------------------------
+let currentImgIndex01 = 0;
+let previousImgIndex01 = 0;
+const imagesA = document.getElementsByClassName('images01');
+
+function move(nextToPrevious) {
+    previousImgIndex01 = currentImgIndex01
+    currentImgIndex01 = currentImgIndex01 + nextToPrevious
+    imagesA[previousImgIndex01].style.display = 'none';
+    if (currentImgIndex01 >= imagesA.length) {
+        currentImgIndex01 = 0;
+    } else if (currentImgIndex01 < 0) {
+        currentImgIndex01 = imagesA.length + nextToPrevious;
+    }
+    imagesA[currentImgIndex01].style.display = 'block'
+}
+
+const prev01 = document.querySelector('.prev01')
+prev01.addEventListener('click', () => move(-1))
+
+const next01 = document.querySelector('.next01')
+next01.addEventListener('click', () => move(1))

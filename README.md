@@ -4,6 +4,8 @@ List of the Technologies used
 
     I used JavaScript, HTML, and CSS.
 
+    I used Visual Studio Code and Github.
+
     For my JavaScript requirements I used a modal for the opening of the page. I used a multipage website through javascript, a couple carousels, and a hamburger menu.
 
 Installation instructions
@@ -23,7 +25,7 @@ Your Wireframes – sketches of major views / interfaces in your application
 Descriptions of any Unsolved problems or major hurdles you had to overcome
 
     Bug fixs with CSS. I thought the big hurdle would be JavaScript this  projects... It was definitly CSS and getting to format things on pages. I still have a few things that dont work right CSS wise but MVP goals are good!
-    
+
 You can find pictures of my website below!
 ![Website01](https://user-images.githubusercontent.com/124624368/221268429-f8803104-a3e0-40ef-b228-507e49d4c73a.png)
 ![Website02](https://user-images.githubusercontent.com/124624368/221268443-0869e9fb-d8e9-4314-827e-6d931b3e0f9d.png)
