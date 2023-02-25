@@ -2,13 +2,17 @@
 
 List of the Technologies used
 
-    I used JavaScript, HTML, and CSS.
+    I used JavaScript, HTML, Bootstrap, and CSS.
 
     I used Visual Studio Code and Github.
 
     For my JavaScript requirements I used a modal for the opening of the page. I used a multipage website through javascript, a couple carousels, and a hamburger menu.
 
 Installation instructions
+    Clone the Repository from GitHub
+
+    Run the HTML file and you are set!
+
 
 Your User stories – who are your users, what do they want and why?
 
