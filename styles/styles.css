@@ -199,7 +199,13 @@ h2{
     font-size: 20px;
 
 }
-
+.ContactPics {
+    max-width: 4vw;
+    max-height: 4vh;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .Objective{
     display: flex;
     background-color:rgba(151, 203, 169, .7);
@@ -213,7 +219,7 @@ h2{
 }
 .Education{
     width: 50vw;
-    height: 75vh;
+    height: 80vh;
     background-color:rgba(102, 139, 164, .7);
     justify-content: center;
     font-size: 35px;
@@ -221,11 +227,18 @@ h2{
 }
 .Experience{
     width: 50vw;
-    height: 75vh;
+    height: 80vh;
     background-color:rgba(221, 224, 171, .7);
     justify-content: center;
     font-size: 1.3vw;
     padding: 10px;
+}
+.Subhead{
+    font-size: 25px;
+    font-weight: bold;
+}
+.bullets {
+    font-size: 23px;
 }
 .Skills-Certifications{
     background-color:rgba(151, 203, 169, .7);
@@ -233,6 +246,10 @@ h2{
     font-size: 35px;
     padding-top: 35px;
     padding: 20px;
+}
+.SubheadSkill{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 
@@ -294,16 +311,24 @@ h2{
         display: flex;
         background-color:rgba(254, 255, 223, .7);
         justify-content: center;
-        font-size: 15px;
+        font-size: 18px;
+    }
+    .ContactPics {
+        max-width: 4vw;
+        max-height: 4vh;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .Objective{
         display: flex;
         background-color:rgba(151, 203, 169, .7);
         justify-content: center;
-        font-size: 35px;
-        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-    
+    .OBJtext{
+        font-size: 20px;
+    }
     .Edu-Parent{
         display: flex;
     }
@@ -323,10 +348,17 @@ h2{
         font-size: 1.3vw;
         padding: 10px;
     }
+    .Subhead{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .bullets {
+        font-size: 15px;
+    }
     .Skills-Certifications{
         background-color:rgba(151, 203, 169, .7);
         justify-content: center;
-        font-size: 35px;
+        font-size: 20px;
         padding-top: 35px;
         padding: 20px;
     }
