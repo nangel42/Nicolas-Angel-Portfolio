@@ -1,34 +1,46 @@
 # Nicolas-Angel-Portfolio
+By: Nicolas Angel
 
-List of the Technologies used
-
-    I used JavaScript, HTML, Bootstrap, and CSS.
-
-    I used Visual Studio Code and Github.
-
-    For my JavaScript requirements I used a modal for the opening of the page. I used a multipage website through javascript, a couple carousels, and a hamburger menu.
-
-Installation instructions
-    Clone the Repository from GitHub
-
-    Run the HTML file and you are set!
+<p align="center"><img src="https://actualisedesign.com/images/img_article-005.jpg" /></p>
 
 
-Your User stories – who are your users, what do they want and why?
+# Project Description
 
-    As a Customer, I want to see what this SE stands for, so that I can decide if he is the right person to work with.
+This was my very first project and very first attempt at my own website! I decided to keep this site up to showcase how far I have come as a developer. I have decided to redo my own site and will be showcasing it soon!
 
-    As an Potential Employer, I want to see what this SE work is like, so that I can decide if he has the skills the company is looking for.
 
-    As a Colleague, I want to see what this SE contact information is, that way I can add him on LinkedIn.
+# Technology Used
 
-Your Wireframes – sketches of major views / interfaces in your application
+* Javascript
+* HTML5
+* CSS
+* Visual Studio Code
+* Github
 
+
+# Installation Instructions
+
+* Clone the Repository from GitHub
+* Run the HTML file and you are set!
+
+
+# Wireframes
+
+The full file below: <br />
+    <a href ="/Extras/Personal-Portfolio-Wireframe.odp"></a>
     [Personal Portfolio Wireframe.odp](https://github.com/nangel42/Nicolas-Angel-Portfolio/files/10828026/Personal.Portfolio.Wireframe.odp)
+    
 
-Descriptions of any Unsolved problems or major hurdles you had to overcome
+# Major Hurdles
 
-    Bug fixs with CSS. I thought the big hurdle would be JavaScript this  projects... It was definitly CSS and getting to format things on pages. I still have a few things that dont work right CSS wise but MVP goals are good!
+* Bug fixes with CSS
+
+    
+# Next Steps
+
+* Creating my own portfolio was really fun, I have decided to work on it again from a clean slate!
+
+# How to Browse My Portfolio
 
 You can find pictures of my website below!
 ![Website01](https://user-images.githubusercontent.com/124624368/221268429-f8803104-a3e0-40ef-b228-507e49d4c73a.png)
