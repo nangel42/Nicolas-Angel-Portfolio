@@ -1,18 +1,18 @@
 # Nicolas-Angel-Portfolio
 By: Nicolas Angel
 <br />
-*NOTE: GitHub Pages Link does NOT work! Please refer to the Heroku Link in the README*
+*NOTE: This is an outdated version of my website, I kept this to showcase where I started as a developer with my first app. If you would like to find my new website, click <a href="https://nangel42.github.io/Nick-Angel-Personal-Portfolio/">here!</a> *
 
 <p align="center"><img src="https://actualisedesign.com/images/img_article-005.jpg" /></p>
 
 
 # Project Link
 
-<a href="https://nick-angel-first-portfolio.herokuapp.com/#">Click Here!<a>
+<a href="https://nick-angel-first-portfolio.herokuapp.com/#">Click Here!</a>
 
 # Project Description
 
-This was my very first project and very first attempt at my own website! I decided to keep this site up to showcase how far I have come as a developer. I have decided to redo my own site and will be showcasing it soon!
+This was my very first project and very first attempt at my own website! I decided to keep this site up to showcase how far I have come as a developer. I have decided to redo my own site, you can find it <a href="https://nangel42.github.io/Nick-Angel-Personal-Portfolio/">here!</a>
 
 
 # Technology Used
