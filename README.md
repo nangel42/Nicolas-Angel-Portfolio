@@ -1,5 +1,6 @@
 # Nicolas-Angel-Portfolio
 By: Nicolas Angel
+*NOTE: GitHub Pages Link does NOT work! Please refer to the Heroku Link in the README*
 
 <p align="center"><img src="https://actualisedesign.com/images/img_article-005.jpg" /></p>
 
