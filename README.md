@@ -1,6 +1,7 @@
 # Nicolas-Angel-Portfolio
 By: Nicolas Angel
 <br />
+<br />
 *NOTE: This is an outdated version of my website, I kept this to showcase where I started as a developer with my first app. If you would like to find my new website, click <a href="https://nangel42.github.io/Nick-Angel-Personal-Portfolio/">here!</a> *
 
 <p align="center"><img src="https://actualisedesign.com/images/img_article-005.jpg" /></p>
